@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/main_layout_padding">
+
+
+        <EditText
+            android:id="@+id/edt_first_name"
+            style="@style/white_edit_Text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_child_layout"
+            android:background="@drawable/square_box_border"
+            android:hint="First name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:padding="@dimen/main_layout_padding"
+            android:textSize="@dimen/text_size_medium" />
+
+
+        <EditText
+            android:id="@+id/edt_job"
+            style="@style/white_edit_Text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_child_layout"
+            android:background="@drawable/square_box_border"
+            android:cursorVisible="true"
+            android:hint="Job"
+            android:inputType="text"
+            android:maxLength="64"
+            android:padding="@dimen/main_layout_padding"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/txt_add_update_user"
+            style="@style/rounded_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_child_layout"
+            android:layout_marginTop="@dimen/margin_child_layout"
+            android:background="@drawable/rounded_shape_border"
+            android:gravity="center"
+            android:paddingLeft="@dimen/rounded_button_padding_left"
+            android:paddingTop="@dimen/main_layout_padding"
+            android:paddingRight="@dimen/rounded_button_padding_left"
+            android:paddingBottom="@dimen/main_layout_padding"
+            android:text="@string/add_user"
+            android:textSize="@dimen/text_size_medium" />
+
+
+    </LinearLayout>
+</LinearLayout>

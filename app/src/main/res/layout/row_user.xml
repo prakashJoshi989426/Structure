@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/common_padding"
+        card_view:cardUseCompatPadding="true">
+
+
+        <com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            swipe:leftEdgeSwipeOffset="0dp"
+            swipe:rightEdgeSwipeOffset="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:background="#FF5534"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FF0000"
+                    android:text="Delete"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:text="Update"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/common_padding">
+
+                    <com.pra.practical.custom.CircularImageView
+                        android:id="@+id/img_profile_pic"
+                        android:layout_width="@dimen/initial_view_height_width"
+                        android:layout_height="@dimen/initial_view_height_width"
+                        android:gravity="center"
+                        android:padding="@dimen/main_layout_padding"
+                        android:src="@drawable/ic_default_user" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="@dimen/common_padding">
+
+                    <TextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:gravity="left"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:textColor="@color/primary_text"
+                        android:textSize="@dimen/text_size_medium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.daimajia.swipe.SwipeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

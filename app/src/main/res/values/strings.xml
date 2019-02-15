@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">User Management</string>
+
+    <string name="login">Login</string>
+
+    <string name="text_new_user_login">New User? Register Here</string>
+    <string name="text_forgot_password">Forgot Password?</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_email">Please enter email</string>
+    <string name="enter_first_name">Please enter first name</string>
+    <string name="enter_job_name">Please enter job title</string>
+    <string name="valid_email">Please enter valid email</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+    <string name="password_confirm">Password and confirm password not match</string>
+    <string name="btn_ok">OK</string>
+
+    <!--common error message-->
+    <string name="error_no_internet_connection">No internet connection available.</string>
+    <string name="register_success">Registered successfully</string>
+    <string name="login_success">Login successfully</string>
+    <string name="home">Home</string>
+
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="delete_sure">Are you sure you want to delete</string>
+    <string name="add_user">Add user</string>
+    <string name="update_user">Update user</string>
+    <string name="added_user">User added successfully</string>
+    <string name="edit_user">User edited successfully</string>
+    <string name="logout_sure">Are you sure you want to logout ?</string>
+</resources>

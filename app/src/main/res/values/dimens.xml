@@ -1,0 +1,146 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="padding_child_layout">5dp</dimen>
+    <dimen name="margin_main_layout">10dp</dimen>
+
+    <dimen name="viewpager_height">200dp</dimen>
+    <dimen name="material_search_view_search_container_border_thickness">0.5dp</dimen>
+    <dimen name="material_search_view_search_container_border_radius">1dp</dimen>
+
+    <dimen name="thumb_width">30dp</dimen>
+    <dimen name="thumb_height">30dp</dimen>
+    <dimen name="item_offset">7dp</dimen>
+    <!-- Text size-->
+    <dimen name="txt_extra_small">5sp</dimen>
+    <dimen name="txt_small">8sp</dimen>
+    <dimen name="txt_very_small">7sp</dimen>
+    <dimen name="txt_mediam_small">10sp</dimen>
+    <dimen name="txt_mediam">12sp</dimen>
+    <dimen name="txt_mediam_15">15sp</dimen>
+    <dimen name="txt_large">14sp</dimen>
+    <dimen name="txt_extra_large">17sp</dimen>
+
+    <dimen name="text_size_extra_large">24sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_initials">2sp</dimen>
+
+    <!-- Common padding-->
+    <dimen name="small_padding">2dp</dimen>
+    <dimen name="common_padding">5dp</dimen>
+    <dimen name="common_padding_10dp">10dp</dimen>
+
+    <!--Common margin-->
+    <dimen name="common_margin">5dp</dimen>
+    <dimen name="common_margin_double">8dp</dimen>
+    <dimen name="common_margin_extra_large">15dp</dimen>
+
+
+    <dimen name="divider_height">1dp</dimen>
+
+    <!--login-signup option screen-->
+    <dimen name="rounded_button_padding_left">60dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">50dp</dimen>
+
+
+    <!--sign-in screen-->
+    <dimen name="view_drawable_padding">8dp</dimen>
+    <dimen name="margin_child_layout">5dp</dimen>
+
+    <!--member list-->
+    <dimen name="initial_view_height_width">60dp</dimen>
+    <dimen name="initial_view_height_width_large">80dp</dimen>
+
+    <!--ImagePicker-->
+    <dimen name="item_padding">1dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="font_small">12dp</dimen>
+    <dimen name="font_medium">16dp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+
+
+
+    <dimen name="main_layout_padding">10dp</dimen>
+
+
+    <dimen name="profile_picture_height">320dp</dimen>
+
+    <dimen name="pin_line_stroke">2dp</dimen>
+    <dimen name="pin_line_stroke_selected">4dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_profile_layout_view">15dp</dimen>
+
+    <dimen name="margin_sub_child_layout">3dp</dimen>
+    <dimen name="spacing">3sp</dimen>
+
+    <dimen name="border_thickness">3dp</dimen>
+    <dimen name="corner_thickness">5dp</dimen>
+    <dimen name="guideline_thickness">1px</dimen>
+
+
+    <dimen name="target_radius">24dp</dimen>
+    <dimen name="snap_radius">3dp</dimen>
+    <dimen name="corner_length">20dp</dimen>
+
+    <dimen name="sf_text_size_very_small_12">14sp</dimen>
+    <dimen name="sf_text_size_very_small">17sp</dimen>
+    <dimen name="sf_text_size_small">20sp</dimen>
+    <dimen name="sf_text_size_medium">24sp</dimen>
+    <dimen name="sf_text_size_extra_medium">26sp</dimen>
+    <dimen name="sf_text_size_large">28sp</dimen>
+    <dimen name="sf_text_size_extra_large">31sp</dimen>
+
+    <dimen name="sf_scale_1dp">1dp</dimen>
+    <dimen name="sf_scale_2dp">2dp</dimen>
+    <dimen name="sf_scale_3dp">3dp</dimen>
+    <dimen name="sf_scale_4dp">4dp</dimen>
+    <dimen name="sf_scale_5dp">5dp</dimen>
+    <dimen name="sf_scale_6dp">6dp</dimen>
+    <dimen name="sf_scale_7dp">7dp</dimen>
+    <dimen name="sf_scale_8dp">8dp</dimen>
+    <dimen name="sf_scale_9dp">9dp</dimen>
+    <dimen name="sf_scale_10dp">10dp</dimen>
+    <dimen name="sf_scale_15dp">15dp</dimen>
+    <dimen name="sf_scale_16dp">16dp</dimen>
+    <dimen name="sf_scale_20dp">20dp</dimen>
+    <dimen name="sf_scale_24dp">24dp</dimen>
+    <dimen name="sf_scale_25dp">25dp</dimen>
+    <dimen name="sf_scale_30dp">30dp</dimen>
+    <dimen name="sf_scale_35dp">35dp</dimen>
+    <dimen name="sf_scale_40dp">40dp</dimen>
+    <dimen name="sf_scale_45dp">45dp</dimen>
+    <dimen name="sf_scale_48dp">48dp</dimen>
+    <dimen name="sf_scale_50dp">50dp</dimen>
+    <dimen name="sf_scale_55dp">55dp</dimen>
+    <dimen name="sf_scale_60dp">60dp</dimen>
+    <dimen name="sf_scale_65dp">65dp</dimen>
+    <dimen name="sf_scale_70dp">70dp</dimen>
+    <dimen name="sf_scale_75dp">75dp</dimen>
+    <dimen name="sf_scale_80dp">80dp</dimen>
+    <dimen name="sf_scale_85dp">85dp</dimen>
+    <dimen name="sf_scale_90dp">90dp</dimen>
+    <dimen name="sf_scale_95dp">95dp</dimen>
+
+
+
+</resources>

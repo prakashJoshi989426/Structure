@@ -1,0 +1,34 @@
+<resources>
+    <integer name="item_space">10</integer>
+    <integer name="enter_duration">300</integer>
+    <integer name="exit_duration">350</integer>
+
+
+    <integer name="discussion_title_max_length">100</integer>
+    <integer name="discussion_title_max_length_share">50</integer>
+    <integer name="discussion_title_min_length">0</integer>
+
+
+
+    <integer name="obj_anim_long">225</integer>
+    <integer name="obj_anim_short">195</integer>
+
+    <integer name="max_length_multi_autocomplete_size">10000</integer>
+    <integer name="qualification_limit">100</integer>
+    <integer name="user_info">128</integer>
+    <integer name="mobile_limit">20</integer>
+    <integer name="hr_firm_name_limit">255</integer>
+    <integer name="job_title">100</integer>
+    <integer name="job_desc">2000</integer>
+    <integer name="email_limit">100</integer>
+    <integer name="industry_limit">100</integer>
+    <integer name="company_limit">100</integer>
+    <integer name="designation_limit">100</integer>
+    <integer name="category_limit">100</integer>
+    <integer name="skill_interest_limit">100</integer>
+    <integer name="location_limit">100</integer>
+    <integer name="url_limit">512</integer>
+    <integer name="address_limit">2000</integer>
+    <integer name="ctc_limit">7</integer>
+    <integer name="image_size_for_discussion_user_profile">50</integer>
+</resources>

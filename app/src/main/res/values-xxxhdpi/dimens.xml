@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Text size-->
+    <dimen name="txt_extra_small">9sp</dimen>
+    <dimen name="txt_very_small">10sp</dimen>
+    <dimen name="txt_small">12sp</dimen>
+    <dimen name="txt_mediam">15sp</dimen>
+    <dimen name="txt_mediam_small">12sp</dimen>
+    <dimen name="txt_large">18sp</dimen>
+    <dimen name="txt_extra_large">21sp</dimen>
+
+    <dimen name="text_size_extra_large">24sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="viewpager_height">210dp</dimen>
+
+    <!--Common margin-->
+    <dimen name="common_margin_extra_large">15dp</dimen>
+    <dimen name="common_margin">9dp</dimen>
+    <dimen name="common_margin_double">15dp</dimen>
+
+    <dimen name="main_layout_padding">10dp</dimen>
+    <dimen name="padding_child_layout">5dp</dimen>
+    <dimen name="margin_child_layout">5dp</dimen>
+    <dimen name="margin_main_layout">10dp</dimen>
+    <dimen name="view_drawable_padding">8dp</dimen>
+    <dimen name="pin_line_stroke">2dp</dimen>
+    <dimen name="pin_line_stroke_selected">4dp</dimen>
+    <dimen name="padding_profile_layout_view">15dp</dimen>
+    <dimen name="rounded_button_padding_left">60dp</dimen>
+
+    <dimen name="profile_picture_height">320dp</dimen>
+</resources>
